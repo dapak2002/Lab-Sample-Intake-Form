@@ -1,0 +1,35 @@
+# Python (sample-service)
+sample-service/Pipfile
+sample-service/Pipfile.lock
+sample-service/venv/
+sample-service/.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Node (sample-app)
+sample-app/node_modules/
+sample-app/.next/
+sample-app/.env*.local
+sample-app/out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
