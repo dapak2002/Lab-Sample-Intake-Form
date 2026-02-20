@@ -18,15 +18,17 @@ Use either of these IDs in Step 1 to test the flow. Any other ID will return "Sa
 
 ### 1. Backend (Flask)
 
+Ensure pipenv is installed.
 From the project root:
 
 ```bash
 cd sample-service
-pipenv install
-pipenv run python app.py
+pipenv
+pip install -r requirements.txt
+python app.py
 ```
 
-API runs at **http://localhost:5001** (port 5001 avoids conflict with macOS AirPlay on 5000).
+API runs at **http://localhost:5001**.
 
 ### 2. Frontend (Next.js)
 
