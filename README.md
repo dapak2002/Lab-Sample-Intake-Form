@@ -22,22 +22,8 @@ From the project root:
 
 ```bash
 cd sample-service
-```
-
-Using **Pipenv** (recommended):
-
-```bash
 pipenv install
 pipenv run python app.py
-```
-
-Or using **venv**:
-
-```bash
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python app.py
 ```
 
 API runs at **http://localhost:5001** (port 5001 avoids conflict with macOS AirPlay on 5000).
